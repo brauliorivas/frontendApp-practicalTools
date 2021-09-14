@@ -1,0 +1,52 @@
+.home_container {
+    justify-content: center !important;
+}
+
+.home_container-figura {
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    flex-direction: row;
+}
+
+#principal-container {
+    width: 500px ;
+}
+
+.cupones p {
+    text-align: center;
+}
+
+button {
+    height: 18% !important;
+}
+
+#result {
+    width: 20%;
+}
+
+#result section {
+    width: 100%;
+}
+
+#resutl h2 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.result_menu {
+    margin-bottom: 5px !important;
+}
+
+#result label {
+    margin-top: 5px;
+}
+
+#result p {
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 5px;
+}
