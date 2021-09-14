@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras</title>
+    <link rel="stylesheet" href="./src/css/figuras.css">
+</head>
+<body>
+    <header class="top">
+        <navbar class="navigation">
+            <div class="logos">
+                <img class="logo" src="https://static.platzi.com/ui/assets/image/isotipoPlatzi093f27a2fb00922bb105.png" height="25px">
+                <img class="platzi" src="https://static.platzi.com/ui/assets/image/logotipo-platzie69328f33899695e31fa.png" height="25px">
+            </div>
+            <div class="navigation-links">
+                <a href="./index.html">Home</a>
+                <a href="./index.html">Precios y descuentos</a>
+                <a href="./index.html">Probabilidad</a>
+                <a href="./index.html">Análisis Salarial</a> 
+            </div>
+        </navbar>
+    </header>
+    <section class='home'>
+        <h1 class='home_principaltitle'>
+            Taller #1 Platzi
+        </h1>
+        <h2 class='home_secondarytitle'>
+            Figuras Geométricas
+        </h2>
+        <div class='home_container'>
+            <div class="home_container-figura">
+                <section>
+                    <h2>
+                        Cuadrado
+                    </h2>
+                    <img src="https://lucasfrezzini.github.io/platzi-curso-practico-javascript/assets/img/square.png" height="100px" width="100px">
+                    <form>
+                        <label for='InputCuadrado'>
+                            Escribe la longitud de un lado del cuadrado en cm
+                        </label>
+                        <input id='InputCuadrado' type='number'/>
+                        <button type='button' onclick="calcularPerimetroCuadrado()">
+                            Calcular el perímetro
+                        </button>
+                        <button type='button' onclick="calcularAreaCuadrado()">
+                            Calcular el área
+                        </button>
+                    </form>
+                    <div id="result-square">
+
+                    </div>
+                </section>
+            </div>
+            <div class="home_container-figura">
+                <section>
+                    <h2>
+                        Triángulo
+                    </h2>
+                    <img src="https://lucasfrezzini.github.io/platzi-curso-practico-javascript/assets/img/triangle.png" height="100px" width="100px">
+                    <form>
+                        <label for='InputtrianguloA'>
+                            Escribe el lado A en cm
+                        </label>
+                        <input id='InputtrianguloA' type='number'/>
+                        <label for='InputtrianguloB'>
+                            Escribe el lado B en cm
+                        </label>
+                        <input id='InputtrianguloB' type='number'/>
+                        <label for='InputtrianguloC'>
+                            Escribe el lado C en cm
+                        </label>
+                        <input id='InputtrianguloC' type='number'/>
+                        <button type='button' onclick="calcularPerimetroTriangulo()">
+                            Calcular el perímetro
+                        </button>
+                        <button type='button' onclick="calcularAreaTriangulo()">
+                            Calcular el área
+                        </button>
+                    </form>
+                    <div id="result-triangle">
+
+                    </div>
+                </section>
+            </div>
+            <div class="home_container-figura">
+                <section>
+                    <h2>
+                        Circunferencia
+                    </h2>
+                    <img src="https://lucasfrezzini.github.io/platzi-curso-practico-javascript/assets/img/circle.png" height="100px" width="100px">
+                    <form>
+                        <label for='InputCircunferencia'>
+                            Escribe el radio de la circunferencia en cm
+                        </label>
+                        <input id='InputCircunferencia' type='number'/>
+                        <button type='button' onclick="calcularPerimetroCircunferencia()">
+                            Calcular el perímetro
+                        </button>
+                        <button type='button' onclick="calcularAreaCircunferencia()">
+                            Calcular el área
+                        </button>
+                    </form>
+                    <div id="result-circle">
+
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <script src="./src/js/figuras.js"></script>
+</body>
+</html>

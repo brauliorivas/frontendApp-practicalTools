@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical JS</title>
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+<body>
+    <header class="top">
+        <navbar class="navigation">
+            <div class="logos">
+                <img class="logo" src="https://static.platzi.com/ui/assets/image/isotipoPlatzi093f27a2fb00922bb105.png" height="25px">
+                <img class="platzi" src="https://static.platzi.com/ui/assets/image/logotipo-platzie69328f33899695e31fa.png" height="25px">
+            </div>
+            <div class="navigation-links">
+                <a href="./figuras.html">Figuras</a>
+                <a href="./index.html">Precios y descuentos</a>
+                <a href="./index.html">Probabilidad</a>
+                <a href="./index.html">Análisis Salarial</a> 
+            </div>
+        </navbar>
+    </header>
+    <section class="home">
+        <div class="home-welcome">
+            <h1>Bienvenido al home del curso</h1>
+            <h1 id="home-secondline">Práctico de Javascript</h1>
+        </div>
+        <div class="carrusel">
+            <div class="carrusel-item" onmouseover="changeColors('0')" onmouseout="changeNormal('0')" onclick="replace('./figuras.html')">
+                <h2>Taller #1</h2>
+                <p>Figuras Geométricas</p>
+                <p id="description">Cálculo de perímetro y área </p>
+                <p id="description">de alguna figuras geométricas</p>
+                <img class="image" src="https://lucasfrezzini.github.io/platzi-curso-practico-javascript/assets/img/circle.png" height="145px" width="149px">
+            </div>
+            <div class="carrusel-item" onmouseover="changeColors('1')" onmouseout="changeNormal('1')">
+                <h2>Taller #2</h2>
+                <p>Precios y Descuentos</p>
+                <p id="description">Cálculo de descuentos en precios</p>
+                <p id="description">de algunos productos</p>
+                <img class="image" src="https://lucasfrezzini.github.io/platzi-curso-practico-javascript/assets/img/price.png" height="145px" width="155px">
+            </div>
+            <div class="carrusel-item" onmouseover="changeColors('2')" onmouseout="changeNormal('2')">
+                <h2>Taller #3</h2>
+                <p>Moda, Media y Mediana</p>
+                <p id="description">Cálculo de datos estadísticos</p>
+                <p id="description">sobre ciertos datos</p>
+                <img class="image" src="https://lucasfrezzini.github.io/platzi-curso-practico-javascript/assets/img/discount.png" height="145px" width="171px">
+            </div>
+            <div class="carrusel-item" onmouseover="changeColors('3')" onmouseout="changeNormal('3')" >
+                <h2>Taller #4</h2>
+                <p>Análisis Salarial</p>
+                <p id="description">Comparación y análisis</p>
+                <p id="description">de salarios</p>
+                <img  class="image" src="https://lucasfrezzini.github.io/platzi-curso-practico-javascript/assets/img/dollar.png" height="145px" width="145px">
+            </div>
+        </div>
+    </section>
+    <script src="src/js/home.js"></script>
+</body>
+</html>
