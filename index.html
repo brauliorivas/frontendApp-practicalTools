@@ -10,15 +10,15 @@
 <body>
     <header class="top">
         <navbar class="navigation">
-            <div class="logos">
+            <a href="./index.html" class="logos">
                 <img class="logo" src="https://static.platzi.com/ui/assets/image/isotipoPlatzi093f27a2fb00922bb105.png" height="25px">
                 <img class="platzi" src="https://static.platzi.com/ui/assets/image/logotipo-platzie69328f33899695e31fa.png" height="25px">
-            </div>
+            </a>
             <div class="navigation-links">
                 <a href="./figuras.html">Figuras</a>
                 <a href="./precios.html">Precios y descuentos</a>
-                <a href="./index.html">Probabilidad</a>
-                <a href="./index.html">Análisis Salarial</a> 
+                <a href="./probabilidad.html">Probabilidad</a>
+                <a href="./analisis.html">Análisis Salarial</a> 
             </div>
         </navbar>
     </header>
@@ -42,14 +42,14 @@
                 <p id="description">de algunos productos</p>
                 <img class="image" src="https://lucasfrezzini.github.io/platzi-curso-practico-javascript/assets/img/price.png" height="145px" width="155px">
             </div>
-            <div class="carrusel-item" onmouseover="changeColors('2')" onmouseout="changeNormal('2')">
+            <div class="carrusel-item" onmouseover="changeColors('2')" onmouseout="changeNormal('2')" onclick="replace('./probabilidad.html')">
                 <h2>Taller #3</h2>
                 <p>Moda, Media y Mediana</p>
                 <p id="description">Cálculo de datos estadísticos</p>
                 <p id="description">sobre ciertos datos</p>
                 <img class="image" src="https://lucasfrezzini.github.io/platzi-curso-practico-javascript/assets/img/discount.png" height="145px" width="171px">
             </div>
-            <div class="carrusel-item" onmouseover="changeColors('3')" onmouseout="changeNormal('3')" >
+            <div class="carrusel-item" onmouseover="changeColors('3')" onmouseout="changeNormal('3')" onclick="replace('./analisis.html')" >
                 <h2>Taller #4</h2>
                 <p>Análisis Salarial</p>
                 <p id="description">Comparación y análisis</p>

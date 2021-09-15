@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moda, Media y Mediana</title>
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/probabilidad.css">
+</head>
+<body>
+    <header class="top">
+        <navbar class="navigation">
+            <a href="./index.html" class="logos">
+                <img class="logo" src="https://static.platzi.com/ui/assets/image/isotipoPlatzi093f27a2fb00922bb105.png" height="25px">
+                <img class="platzi" src="https://static.platzi.com/ui/assets/image/logotipo-platzie69328f33899695e31fa.png" height="25px">
+            </a>
+            <div class="navigation-links">
+                <a href="./index.html">Home</a>
+                <a href="./figuras.html">Figuras</a>
+                <a href="./precios.html">Precios y descuentos</a>
+                <a href="./analisis.html">Análisis Salarial</a> 
+            </div>
+        </navbar>
+    </header>
+    <section class="principal">
+        <h3 class="instructions">Instrucciones</h3>
+        <p class="instructions">Para añadir un valor solo escribe el número y haz click en añadir</p>
+        <p class="instructions">Para eliminar un valor solo indica el índice y haz click en eliminar</p>
+        <div class="principal-values">
+            <div class="array">
+                <h2>Valores Agregados</h2>
+                <p id="input-values">
+                    
+                </p>
+                <p id="show-array">
+
+                </p>
+            </div>
+            <div class="input-menu">
+                <button type="button" onclick="add()">
+                    Añadir
+                </button>
+                <button type="button" onclick="del()">
+                    Eliminar
+                </button>
+                <label>
+                    Número
+                    <input id="number-add" type="number">
+                </label>
+                <label>
+                    Indice
+                    <input id="number-index" type="number">
+                </label>
+            </div>
+        </div>
+        <div class="principal-results">
+            <div class="result">
+                <h2 class="result-name">
+                    Moda
+                </h2>
+                <p id="mode-result">
+                    
+                </p>
+            </div>
+            <div class="result">
+                <h2 class="result-name">
+                    Media
+                </h2>
+                <p id="mean-result">
+                    
+                </p>
+            </div>
+            <div class="result">
+                <h2 class="result-name">
+                    Mediana
+                </h2>
+                <p id="median-result">
+                    
+                </p>   
+            </div>
+        </div>
+    </section>
+    <script src="./src/js/probabilidad.js"></script>
+</body>
+</html>
