@@ -93,3 +93,13 @@ input:focus-visible {
 .result p {
     padding-top: 8%;
 }
+
+.home_principaltitle {
+    margin-left: 8%;
+}
+
+.home_secondarytitle {
+    margin-left: 15%;
+    font-size: 45px;
+    margin-top: 13px;
+}

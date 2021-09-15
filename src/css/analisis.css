@@ -1,0 +1,38 @@
+.taller4 {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(248,244,241,1) 0%, rgba(248,244,241,1) 50%, rgba(254,247,97,1) 100%);
+    min-height: calc(100vh - 70px);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.home_principaltitle {
+    margin-left: 10%;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+.home_secondarytitle {
+    margin-left: 15%;
+    font-size: 45px;
+}
+
+.inst-box {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.instrucciones {
+    text-align: center;
+    font-family: "Poppins", sans serif;
+    font-weight: 500;
+    height: 33%;
+}
