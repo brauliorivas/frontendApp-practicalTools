@@ -10,3 +10,8 @@ footer p {
     padding-top: 16px;
     padding-bottom: 16px;
 }
+
+#twitter {
+    color: white;
+    text-decoration: none;
+}
