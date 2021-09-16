@@ -36,3 +36,69 @@
     font-weight: 500;
     height: 33%;
 }
+
+.analisis {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-content: center;
+}
+
+.graph {
+    display: flex;
+    align-items: center;
+    margin-right: 7%;
+}
+
+.input-menu {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    text-align: center;
+    font-family: "MessinaSans",sans-serif;
+    font-size: 14px;
+    height: 30px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+button{
+    background-color: #97C93E;
+    border: 3px solid black;
+    height: 45px;
+    font-family: "MessinaSans",sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-top: 20px;
+    width: 60%;
+    align-self: center;
+}
+
+#fix {
+    margin-bottom: 10px;
+}
+
+.result {
+    margin-bottom: auto;
+}
+
+#red {
+    background-color:  rgb(246 223 28);
+}

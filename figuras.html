@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figuras</title>
     <link rel="stylesheet" href="./src/css/figuras.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
 </head>
 <body>
     <header class="top">
@@ -44,7 +45,7 @@
                         <button type='button' onclick="calcularPerimetroCuadrado()">
                             Calcular el perímetro
                         </button>
-                        <button type='button' onclick="calcularAreaCuadrado()">
+                        <button type='button' onclick="calcularAreaCuadrado()"  id="red">
                             Calcular el área
                         </button>
                     </form>
@@ -75,7 +76,7 @@
                         <button type='button' onclick="calcularPerimetroTriangulo()">
                             Calcular el perímetro
                         </button>
-                        <button type='button' onclick="calcularAreaTriangulo()">
+                        <button type='button' onclick="calcularAreaTriangulo()" id="red">
                             Calcular el área
                         </button>
                     </form>
@@ -98,7 +99,7 @@
                         <button type='button' onclick="calcularPerimetroCircunferencia()">
                             Calcular el perímetro
                         </button>
-                        <button type='button' onclick="calcularAreaCircunferencia()">
+                        <button type='button' onclick="calcularAreaCircunferencia()" id="red">
                             Calcular el área
                         </button>
                     </form>
@@ -109,6 +110,9 @@
             </div>
         </div>
     </section>
+    <footer>
+        <p>By @BraulioRivas16</p>
+    </footer>
     <script src="./src/js/figuras.js"></script>
 </body>
 </html>

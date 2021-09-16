@@ -155,3 +155,7 @@ body {
 button:hover {
     cursor: pointer;
 }
+
+#red {
+    background-color:  rgb(246 223 28);
+}

@@ -103,3 +103,8 @@ input:focus-visible {
     font-size: 45px;
     margin-top: 13px;
 }
+
+
+#red {
+    background-color:  rgb(246 223 28);
+}

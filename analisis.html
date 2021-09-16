@@ -7,6 +7,7 @@
     <title>Análisis Salarial</title>
     <link rel="stylesheet" href="./src/css/styles.css">
     <link rel="stylesheet" href="./src/css/analisis.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
 </head>
 <body>
     <header class="top">
@@ -43,21 +44,26 @@
         </div>
         <section class="analisis">
             <div class="graph">
-
+                <img src="https://raw.githubusercontent.com/brauliorivas/frontendApp-practicalTools/main/src/descarga.png" height="200px">
             </div>
             <div class="input-menu">
                 <h3>Aporte en $ inicial</h3>
-                <input type="number"/>
+                <input id="aporte" type="number"/>
                 <h3>Rendimiento porcentual anual %</h3>
-                <input type="number"/>
-                <h3>Años</h3>
-                <input type="number"/>
-                <button type="button">Calcular</button>
-                <p class="result">
-                    Después de x años tendrás $$$
+                <input id="porcentaje" type="number"/>
+                <h3 id="fix">Años de la inversión</h3>
+                <input id="years" type="number"/>
+                <button type="button" onclick="print()">Calcular</button>
+                <button type="button" onclick="reset()" id="red">Reset</button>
+                <p id="result">
+                    <!-- Después de x años tendrás $$$ -->
                 </p>
             </div>
         </section>
     </section>
+    <footer>
+        <p>By @BraulioRivas16</p>
+    </footer>
+    <script src="./src/js/analisis.js"></script>
 </body>
 </html>
