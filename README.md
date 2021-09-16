@@ -23,4 +23,12 @@ Link al proyecto https://brauliorivas.github.io/frontendApp-practicalTools.githu
 - Primer paso: definir las fórmulas
 - Segundo paso: implementar las fórmulas en Javascript
 - Tercer paso: crear funciones
+- Cuarto paso: integrar Javascript con HTML
+
+## Taller #4: Analisis Salarial 
+
+- Primer paso: definir las fórmulas
+- Segundo paso: implementar las fórmulas en Javascript
+- Tercer paso: crear funciones
 - Cuarto paso: integrar Javascript con HTML 
+
